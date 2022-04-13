@@ -87,15 +87,6 @@ void slide(int column) {
                 bitmap[i][column] = false;
             }
     }
-
-   /* for (i = bitmap_height - 2; i >= 0; i--) {
-        for (j = 0; j < width; j++) {
-            if (bitmap[i][j]){
-                bitmap[i + 1][j] = true; 
-                bitmap[i][j] = false;
-            }
-        }
-    }*/
 }
 
 void control() {
