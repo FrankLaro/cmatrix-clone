@@ -80,7 +80,6 @@ void initBitmap() {
     genPillar();
 }
 
-// TODO Aggiungere velocità
 void slide(int column) {
     for (int i = bitmap_height - 2; i >= 0; i--) {
         if (bitmap[i][column]){
